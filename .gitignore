@@ -1,6 +1,8 @@
 # Build outputs
 build/
 cmake-build-*/
+*.o
+*.obj
 
 # IDE
 .vscode/
