@@ -1,0 +1,25 @@
+# Build outputs
+build/
+cmake-build-*/
+
+# IDE
+.vscode/
+.idea/
+.clangd
+compile_commands.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Dependencies (FetchContent downloads)
+_deps/
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage/
